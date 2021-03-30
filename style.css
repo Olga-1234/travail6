@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.repertoire
+{
+
+    border: 3px solid rgba(100, 152, 235, 0.274);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 600px; */
+    width: 60%;
+    margin: 30px auto;
+    padding: 0 0 20px 0;
+    /* position: relative; */
+    top: 50vh;
+    /* transform: translateY(-50%); */
+}
+.titRep
+{
+    width: 100%;
+    height: 50px; 
+    
+}
+#titre3
+{
+    margin-left: 15px;
+    
+}
+.lesTitres
+ {
+    background-color: #2F80ED;
+    color: white;
+    font-weight: 900;
+    font-family: sans-serif;
+
+ }
+ textarea
+ {
+     resize: none;
+     overflow-y: scroll;
+     height: 105px;
+     width: 100%;
+ }
+
+.listEform
+{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+width: 100%;
+height: 87%;
+margin-top: 12px;
+
+
+}
+
+.formulaire
+{
+    border: 3px solid rgba(100, 152, 235, 0.274);
+    width: 42%;
+    background-color:#F6F6F6;
+}
+form
+{
+    margin-top: 5%;
+    padding: 0 10px;
+    color: blue;
+    font-family: sans-serif;
+}
+
+.liste
+{
+    border: 3px solid rgba(100, 152, 235, 0.274);
+    width: 55%;
+    background-color: #F6F6F6;
+}
+#titForm
+{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+#titCnt
+{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+
+
+}
+.imageBtn
+{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    padding:0 10px; 
+
+}
+.btnChoixImg
+{
+    display: none;
+    z-index: -1;
+    overflow: hidden;
+}
+.btnChoixImg + label
+{
+    padding: 20px;
+    cursor: pointer;
+    background-color:#e5e5e5;
+    transition: all ease-in-out 0.3s;
+}
+
+.btnChoixImg:hover + label,
+.btnChoixImg:focus + label
+ {
+     background-color: #cac9c9;
+ }
+.btn1
+{
+    height: 30px;
+    background-color: #E5E5E5;
+    ;
+}
+
+.maphoto
+{
+    width: 100px;
+    border: 1px solid rgb(168, 41, 41);
+}
+.creeretreint
+{
+display: flex;
+justify-content: space-around;
+padding-top: 40px;
+margin-bottom: 15px;
+
+}
+.btn
+{
+    height: 40px;
+    width:40%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+.btn--bleu
+{
+    background-color: #2F80ED;
+}
+.btn--bleu:hover
+{
+    background-color:#EB5757 ;
+transition: ease-in-out 0.3s;
+}
+
+.btn--red
+{
+    background-color: #EB5757;
+}
+.btn--red:hover
+{
+transition: ease-in-out 0.3s;
+background-color: #2F80ED;
+
+
+
+}
+
+
+option, input, select
+{
+width: 99%;
+height: 40px;
+}
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 10px 0 ;
+    padding: 10px 0;
+    height: 100px;
+    border-bottom:solid 1px rgba(47,128,237,0.2);
+
+}
+
+.btnFerme
+{
+    color: red;
+    font-size: 1.2rem;
+
+}
+.imageTaille
+{
+width: 80px;
+height: 80px;
+/* border-radius: 50px;
+border:solid 1px rgb(47, 129, 237); */
+
+}
+.photo
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+}
+.contenus
+{
+    width: 50%;
+    word-wrap: break-word;
+}
+.contenuImages
+{
+    width:30%;
+
+}
+.cursor-pointer
+{
+    cursor: pointer;
+}
