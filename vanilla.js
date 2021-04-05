@@ -78,9 +78,15 @@ function addtolist(personne) {
 // bouton pour reintialiser
 buttonReint.addEventListener("click", function (event) {
   event.preventDefault();
-  do {
-    list.removeChild(list.lastChild);
-  } while (list.firstChild);
+  premierNom.value = "";
+  lenom.value = "";
+  nomGroupe.value = "";
+  biographie.value = "";
+  btnChoixImg.files[0]=undefined;
+  photoProfile.setAttribute("src", "");
+  // do {
+  //   list.removeChild(list.lastChild);
+  // } while (list.firstChild);
 });
 // visionneuse d'image
 btnChoixImg.addEventListener("change", function () {
