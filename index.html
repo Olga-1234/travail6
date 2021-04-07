@@ -12,16 +12,16 @@
 <body>
     <div class="repertoire">
         <div class="titRep lesTitres">
-            <h3>
+            <h1>
                 Répertoire de contact
-            </h3>
+            </h1>
         </div>
         <div class="listEform">
             <div class="formulaire">
-                <h3 class="lesTitres" id="titForm">
+                <h2 class="lesTitres" id="titForm">
 
                     Formulaire de contact
-                </h3>
+                </h2>
                 <form method="POST" action="#">
                     <p>
                         <label for="prenom">Prénom</label>
@@ -35,8 +35,8 @@
                     </p>
                     <p>
                         <label for="nom">Groupe</label> <br>
-                        <select class="sltGroupe" id="sltGroupe"> <br>
-                            <option disabled hidden selected></option>
+                        <select class="sltGroupe" id="sltGroupe"> 
+                            <option value="Groupe0" disabled hidden selected>Veuillez choisir un groupe</option>
                             <option value="Groupe1">Groupe1</option>
                             <option value="Groupe2">Groupe2</option>
                             <option value="Groupe3">Groupe3</option>
@@ -54,7 +54,7 @@
                         <label for="btnChoixImg">Choisir un Fichier</label>
                     </div>
                     <div>
-                        <img id="photoProfile" class="maphoto" src="" alt="image">
+                        <img id="photoProfile" class="maphoto" src="#" alt="image">
                     </div>
                 </div>
                 <div class="creeretreint">
@@ -65,9 +65,9 @@
             </div>
 
             <div class="liste">
-                <h3 class="lesTitres" id="titCnt">
+                <h2 class="lesTitres" id="titCnt">
                     Liste de contact
-                </h3>
+                </h2>
                 <div id="list">
 
                 </div>
